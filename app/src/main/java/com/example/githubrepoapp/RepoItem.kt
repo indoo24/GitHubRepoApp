@@ -39,7 +39,7 @@ fun RepoItem(modifier: Modifier = Modifier) {
                 .padding(start = 5.dp, top = 2.dp)
                 .size(50.dp)
                 .clip(shape = CircleShape),
-            painter = painterResource(id = R.drawable.ic_launcher_foreground),
+            painter = painterResource(id = R.drawable.repo),
             contentDescription =null )
         Column (
             modifier = modifier.padding(horizontal = 10.dp, vertical = 6.dp)
@@ -52,7 +52,7 @@ fun RepoItem(modifier: Modifier = Modifier) {
             ){
                 Text(
                     fontWeight = FontWeight(weight = 600),
-                    text = "Bump werkzeug from"
+                    text = "Android Repo"
                 )
 
                 Text(
@@ -61,11 +61,11 @@ fun RepoItem(modifier: Modifier = Modifier) {
                         .padding(horizontal = 10.dp),
                     text = "open")
             }
-            Text(text = "NONE")
+            Text(text = "Indoo")
             Row {
                 Text(fontWeight = FontWeight(weight = 600),
                     text = "Created At:")
-                Text(text = "2023-10-5")
+                Text(text = "2024-12-18")
             }
 
         }
